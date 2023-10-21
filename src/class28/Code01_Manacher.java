@@ -10,6 +10,7 @@ public class Code01_Manacher {
 		char[] str = manacherString(s);
 		// 回文半径的大小
 		int[] pArr = new int[str.length];
+		//中心轴的位置
 		int C = -1;
 		// 讲述中：R代表最右的扩成功的位置
 		// coding：最右的扩成功位置的，再下一个位置
